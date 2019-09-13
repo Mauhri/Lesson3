@@ -1,0 +1,100 @@
+/* Global Styles
+---------------------------*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+  font-family: ingra, sans-serif;
+font-weight: 200;
+font-style: normal;
+    margin: 0;
+}
+a {
+    color: #EF233C;
+}
+a:hover{
+    text-decoration: none;
+}
+h1, h2{
+       font-family: ingra, sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+h1{
+    font-size: 80px;
+     color: #FFF;
+    text-shadow: 0 0 150px #FFF, 0 0 60px #FFF, 0 0 10px #FFF;
+}
+h2{
+    font-size: 30px;
+    margin-top: 0px;
+}
+h3{
+    font-size: 20px;
+}
+.content-wrap{
+    max-width:950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: auto;
+}
+.col-narrow{
+    width: 30%;
+    float:left;
+    padding-right:10px;
+    min-height: 175px;
+}
+.col-wide{
+    width: 70%;
+    float:left;
+    padding-left: 10px;
+    min-height: 175px;
+}
+p{
+    font-size: 14px;
+}
+/* Header and Footer
+---------------------------*/
+header,footer{
+    
+    color: black;
+}
+header{
+    background: #d7897e;
+}
+.profile{
+ 
+    border-radius: 50%;
+    
+}
+header h1, header h2{
+    color: #EDF2F4;
+    margin: 0px;
+ 
+}
+footer{
+    text-align: center;
+    background: #f0d0c1;
+}
+.contact-info{
+    padding: 10px;
+    display: inline-block;
+    
+}
+/*Work Experience 
+---------------------------*/
+.work{
+    background: #f4efeb;
+ 
+}
+
+/* Education
+---------------------------*/
+.education{
+    background: #eeb1a2;
+
+}
